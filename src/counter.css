@@ -1,0 +1,10 @@
+body{
+    background-color: green ;
+}
+.counter {
+    border: 2px solid red;
+    display : inline-block ; 
+    margin: 20px;
+    padding: 10 px;
+    background-color : yellow;  
+}
