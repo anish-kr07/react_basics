@@ -1,0 +1,19 @@
+.timer{
+  font-family: cursive;
+  border: 2px solid grey;
+  margin: 25px;
+  padding: 25px;
+  display: inline-block;
+  background-color: #aa66cc;
+}
+
+.timer .count{
+  font-size: 50px;
+  font-family: monospace;
+  color: yellow;
+  border: 2px solid black;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: gray;
+}
