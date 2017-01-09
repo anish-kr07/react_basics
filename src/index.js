@@ -7,10 +7,11 @@ import Sum from './Sum';
 import Counter from './Counter';
 import Timer from './Timer';
 import Boxes from './Boxes.js';
+import RandomBox  from './RandomBox';
 
 ReactDOM.render(
   <div>
-  <Boxes/>
+ <RandomBox/>
   </div>,
   document.getElementById('root')
 );

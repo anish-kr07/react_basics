@@ -1,0 +1,8 @@
+.randomBox{
+  font-family: cursive;
+  border: 2px solid grey;
+  margin: 25px;
+  padding: 25px;
+  display: inline-block;
+  background-color: #aa66cc;
+}

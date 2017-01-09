@@ -5,7 +5,7 @@ export default class Boxes extends React.Component{
   constructor(props){
     super(props);
     this.state = {};
-  }
+    }
 
   getColors(){
     let r = Math.floor(Math.random() * 256);
@@ -16,11 +16,12 @@ export default class Boxes extends React.Component{
   }
 
   render(){
+            
     return (
       <div>
         <h1>Boxes</h1>
         {
-          Array(10).fill(null).map((_, i) =>{
+          Array(3).fill(null).map((_, i) =>{
             return <Box key={i} colors={this.getColors()} />;
           })
         }
