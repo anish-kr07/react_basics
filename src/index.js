@@ -1,9 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import Basic from './Basic';
 import './index.css';
+import Sum from './Sum'
 
 ReactDOM.render(
-  <App />,
+  <div>
+  <Sum a={3} b={2} />
+  <Sum a={3} b={2} />
+  <Sum a={3} b={2} />
+  <Sum a={3} b={2} />
+  </div>,
   document.getElementById('root')
+  
 );
