@@ -7,7 +7,7 @@ import Sum from './Sum'
 
 ReactDOM.render(
   <div>
-  <Sum num={[3,5,7]}/>
+  <Sum num={[3,5,3]}/>
   </div>,
   document.getElementById('root')
   
